@@ -11,12 +11,20 @@ console.log(titles);
 ---
 
 <header>
-  <nav
-    class="navbar navbar-expand-lg bg-dark border-bottom border-body"
-    data-bs-theme="dark"
-  >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/opb158">{SITE_TITLE}</a>
+  <nav class="navbar navbar-expand-lg mt-3" data-bs-theme="light">
+    <div class="container">
+      <a
+        class="navbar-brand"
+        style="font-weight: 500; font-size: 120%;"
+        href="/"
+        >{SITE_TITLE}
+        <img
+          src="/logo-main.svg"
+          alt="Code Ocean Logo"
+          width="120"
+          height="80"
+        />
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -30,13 +38,12 @@ console.log(titles);
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- style="margin: 0 auto; -->
           <li class="nav-item">
             <HeaderLink class="nav-link" href="/">Главная</HeaderLink>
           </li>
           <li class="nav-item">
-            <HeaderLink class="nav-link" href="/about">
-              О компании
-            </HeaderLink>
+            <HeaderLink class="nav-link" href="/about"> О компании </HeaderLink>
           </li>
           <li class="nav-item">
             <HeaderLink class="nav-link" href="/contacts">
@@ -44,10 +51,27 @@ console.log(titles);
             </HeaderLink>
           </li>
         </ul>
+        <ul class="me-auto mb-2 mb-lg-0">
+          <li
+            class="nav-item"
+            style="font-weight: bolder; margin-right: 0rem; list-style: none;"
+          >
+            <a
+              href="tel:8-800-500-20-20"
+              style="color: black; text-decoration: none;">8-800-500-20-20</a
+            >
+          </li>
+          <li
+            class="nav-item"
+            style="font-weight: 400; margin-right: 3rem; font-size: 90%; list-style: none;"
+          >
+            <HeaderLink href="mailto:hi@codeocean.ru" style="color: black;"
+              >hi@codeocean.ru</HeaderLink
+            >
+          </li>
+        </ul>
+        <button class="btn btn-warning btn-lg" type="submit">Связаться</button>
       </div>
     </div>
-
-    <h2></h2>
-    <div class="internal-links"></div>
   </nav>
 </header>

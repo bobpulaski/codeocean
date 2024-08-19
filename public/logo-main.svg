@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="149.99997"
+   height="110"
+   viewBox="0 0 149.99997 110"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-477.37259,-408.07611)">
+    <g
+       id="layer3">
+      <rect
+         style="display:inline;fill:#ffc72c;fill-opacity:1;stroke-width:0.620607"
+         id="rect1"
+         width="150"
+         height="110"
+         x="477.37259"
+         y="408.07611"
+         ry="10.784313" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.7341px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#000000;fill-opacity:1;stroke-width:1.41772"
+       x="483.24783"
+       y="504.0192"
+       id="text1"
+       transform="scale(1.0278457,0.97290867)"><tspan
+         id="tspan1"
+         x="483.24783"
+         y="504.0192"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90.7341px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#000000;stroke-width:1.41772">CO</tspan></text>
+  </g>
+</svg>
