@@ -1,16 +1,21 @@
+/* .bg-warning, .btn-warning {
+  background: #FFD900 !important;
+  border: none;
+} */
+
+
+
+
+
 body {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Source Sans 3", sans-serif;
   font-size: 120%;
 
 }
 
 h1, h2, h3 {
   margin-top: 2rem;
-}
-
-h1 {
-  font-size: 3.5rem;
-  font-weight: 400;
 }
 
 .navbar-toggler {
@@ -42,4 +47,14 @@ a.nav-link.active, a.nav-link:hover {
 .btn {
   font-size: 80%;
   font-weight: bold;
+}
+
+#top-block {
+  /* background-image: url(https://papik.pro/uploads/posts/2023-02/1675517694_papik-pro-p-kartinki-risunki-abstraktsiya-18.jpg); */
+  /* background-color: #218359; */
+  /* width: 100%; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* filter: grayscale(100%); */
+  /* background: rgb(245, 245, 245); */
 }

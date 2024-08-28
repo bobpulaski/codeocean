@@ -8,10 +8,28 @@ const data = await response.json();
 const titles = data.map((item) => item.title_1);
 
 console.log(titles);
+
+const path = Astro.url.pathname;
+console.log(path);
+
+let navbarBgColor;
+
+if (path !== "/") {
+  navbarBgColor = "white";
+} else {
+  // navbarBgColor = "rgb(245, 245, 245)";
+  navbarBgColor = "white";
+}
+
+console.log(navbarBgColor);
 ---
 
-<header>
-  <nav class="navbar navbar-expand-lg mt-3" data-bs-theme="light">
+<header id="header">
+  <nav
+    class="navbar navbar-expand-lg pt-3"
+    data-bs-theme="light"
+    style={`background-color: ${navbarBgColor}`}
+  >
     <div class="container">
       <a
         class="navbar-brand"
@@ -43,12 +61,10 @@ console.log(titles);
             <HeaderLink class="nav-link" href="/">Главная</HeaderLink>
           </li>
           <li class="nav-item">
-            <HeaderLink class="nav-link" href="/about"> О компании </HeaderLink>
+            <HeaderLink class="nav-link" href="/about">О компании</HeaderLink>
           </li>
           <li class="nav-item">
-            <HeaderLink class="nav-link" href="/contacts">
-              Контакты
-            </HeaderLink>
+            <HeaderLink class="nav-link" href="/contacts">Контакты</HeaderLink>
           </li>
         </ul>
         <ul class="me-auto mb-2 mb-lg-0">
@@ -65,9 +81,9 @@ console.log(titles);
             class="nav-item"
             style="font-weight: 400; margin-right: 3rem; font-size: 90%; list-style: none;"
           >
-            <HeaderLink href="mailto:hi@codeocean.ru" style="color: black;"
-              >hi@codeocean.ru</HeaderLink
-            >
+            <HeaderLink href="mailto:hi@codeocean.ru" style="color: black;">
+              hi@codeocean.ru
+            </HeaderLink>
           </li>
         </ul>
         <button class="btn btn-warning btn-lg" type="submit">Связаться</button>
